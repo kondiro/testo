@@ -1,0 +1,18 @@
+input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+i[type-change=""] {
+    cursor: pointer !important;
+    position: absolute;
+    left: 93%;
+    bottom: 0;
+    margin: auto;
+}

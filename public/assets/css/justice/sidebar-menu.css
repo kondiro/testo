@@ -1,0 +1,31 @@
+.dropdown-toggle {
+  white-space: initial !important;
+}
+.sub-submenu a {
+  white-space: break-spaces !important;
+}
+.list-unstyled .active {
+  position: relative !important;
+}
+.list-unstyled .active:after {
+  content: "";
+  position: absolute !important;
+  top: 0;
+  height: 100%;
+  background: #ffffff !important;
+  width: 0.2rem;
+}
+
+.list-unstyled .active-left {
+  left: 0;
+}
+.list-unstyled .active.right {
+  right: 0;
+}
+.module {
+  border: 1px solid white;
+  width: 100%;
+  overflow: hidden !important;
+  border-left: 0;
+  border-top: 0;
+}

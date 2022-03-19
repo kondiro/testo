@@ -1,0 +1,35 @@
+.continu-with .divider {
+    height: 1px;
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+}
+
+.continu-with .divider-text {
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    top: 14px
+}
+
+
+.continu-with .divider-text span {
+
+    margin: 0px;
+    background: #ffffff;
+    width: 143px;
+    border: 1px solid #1761a0;
+    border-radius: 20px;
+    padding: 5px 15px;
+    color: #2262c6;
+    font-weight: 500;
+    top: -6px;
+    font-size: 13px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+

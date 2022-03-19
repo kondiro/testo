@@ -1,0 +1,19 @@
+app folder :
+
+	1 - classes :
+	    contains any  helper class needed in our project (we will move from this folder to services in future)
+    2 - services :
+        will contain any class helpers in the future each class will be grouped by the type
+        or what this class do for us
+            ex : fileSaver.php this file contains class that save file to storage
+                so this class will be in folder called services/files
+            ex : regex.php this file contains class that contain constants of all the regexes we will need
+                so this class will be in folder called services/security
+    3 - view : contains all components classes and any things has relation to the  components
+
+resources folder :
+     1- lang : contains pages translate (fr,ar,eng)
+     2 - views :
+        1 - components : contains components that we use in consut and edition
+
+resources folder :
